@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import CheckOutForm from "./components/CheckOutForm";
 import RecordTable from "./components/RecordTable";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import ProductDrawer from "./components/ProductDrawer";
 
 const App = () => {
