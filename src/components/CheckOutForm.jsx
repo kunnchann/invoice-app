@@ -1,7 +1,7 @@
 import React, { useContext, useRef } from "react";
 import { context } from "../context/GeneralContext";
 
-const CheckoutForm = () => {
+const CheckOutForm = () => {
   const { products, showProducts, setShowProduct } = useContext(context);
 
   const productRef = useRef();
@@ -98,4 +98,4 @@ const CheckoutForm = () => {
   );
 };
 
-export default CheckoutForm;
+export default CheckOutForm;
